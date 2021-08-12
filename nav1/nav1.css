@@ -1,0 +1,80 @@
+/* 
+BY: https://github.com/roomacarthur
+REPO: https://github.com/roomacarthur/html-css-templates 
+*/
+
+/*------------------------------------------ Generic */
+/* control generic page styling. */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    background-color: #292c2a;
+}
+/*------------------------------------------ Nav */
+/* 
+general layout, Don't be afraid to be creative with this, this example just allows for a desktop view, spacing the elements apart equally with a margin on either side = to 10% of the view window. 
+*/
+header {
+    height: 100px;
+    padding: 20px 10%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color: #83e85a;
+    cursor: pointer;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.logo:hover{
+    color: #107a8b;
+    transition: all .8s ease;
+}
+.links-nav{
+    list-style: none;
+}
+.links-nav li {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 22px;
+}
+.links-nav li a {
+    color: #83e85a;
+    text-decoration: none;
+}
+.links-nav li a:hover{
+    color: #FFF;
+}
+.btn button {
+    padding: 10px;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color:#107a8b;
+    background-color:#83e85a;
+    border: none;
+    border-radius: 2em;
+    cursor: pointer;
+}
+.btn button:hover{
+    color:#83e85a;
+    background-color:#107a8b;
+    transition: all .8s ease;
+}
+/*------------------------------------------ Nav mobile*/
+/* 
+this was a desktop first design which should be avoided at all costs
+styling for screens smaller follow a similar order.
+ */
+
+@media screen and (max-width: 1000px){
+    
+}
